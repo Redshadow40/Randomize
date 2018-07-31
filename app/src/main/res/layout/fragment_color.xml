@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.aria.randomize.ColorFragment"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/resultView"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="#fffff"
+        android:textColor="#000000"
+        android:textSize="50dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:background="#ffffff"/>
+    <Button
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="OK"
+        android:textSize="50sp"
+        android:id="@+id/OkButton"
+        android:onClick="Generate"
+        android:background="@drawable/okbutton" />
+
+</LinearLayout>
